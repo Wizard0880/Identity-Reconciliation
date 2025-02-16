@@ -11,25 +11,11 @@ An API that manages user identity reconciliation based on email and phone number
 
 ---
 
-## **📂 Table of Contents**  
-- [Getting Started](#getting-started)  
-- [API Endpoints](#api-endpoints)  
-- [Installation](#installation)  
-- [Usage](#usage)  
-- [Request Examples](#request-examples)  
-- [Response Format](#response-format)  
-- [Project Structure](#project-structure)  
-- [Technologies Used](#technologies-used)  
-- [Contributing](#contributing)  
-- [License](#license)  
-
----
-
 ## **🚀 Getting Started**  
 
 ### **1️⃣ Clone the Repository**  
 ```bash
-git clone https://github.com/your-username/identity-reconciliation.git
+git clone https://github.com/Wizard0880/Identity-Reconciliation.git
 cd identity-reconciliation
 ```
 
@@ -170,4 +156,3 @@ This project is **open-source** and available under the [MIT License](LICENSE).
 
 ### 🚀 **Happy Coding!** 💻🎯  
 
----
