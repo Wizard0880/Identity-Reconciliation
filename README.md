@@ -16,7 +16,7 @@ An API that manages user identity reconciliation based on email and phone number
 ### **1️⃣ Clone the Repository**  
 ```bash
 git clone https://github.com/Wizard0880/Identity-Reconciliation.git
-cd identity-reconciliation
+cd Identity-Reconciliation
 ```
 
 ### **2️⃣ Install Dependencies**  
