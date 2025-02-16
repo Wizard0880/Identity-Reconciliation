@@ -6,16 +6,20 @@ require('dotenv').config();
 
 const app = express();
 
-// Middleware
 app.use(express.json());
 
-// Connect to MongoDB
 connectDB();
 
-// Routes
 app.use('/', contactRoutes);
 
-// Error Handler
+app.get('/', (req, res) => {
+  res.send(`
+    <h2>Server is Running</h2>
+    <p>Listening on port ${process.env.PORT || 3000}</p>
+  `);
+});
+
+
 app.use(errorHandler);
 
 const PORT = process.env.PORT || 3000;
